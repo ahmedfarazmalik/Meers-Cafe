@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meer's Cafe Rawalpindi | Burgers, Pizza, Broast & Shawarma – Order on WhatsApp</title>
+<meta name="description" content="Meer's Cafe in Shamsabad, Rawalpindi – burgers, pizzas, crispy broast, shawarma, rolls and fries. Open 11 AM to 3 AM. Home delivery or pickup, order on WhatsApp.">
+<meta name="keywords" content="Meer's Cafe, Shamsabad, Rawalpindi, burgers, pizza, crispy broast, shawarma, rolls, fries, home delivery, pickup, order on WhatsApp">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://YOUR-DOMAIN-HERE/"><meta name="theme-color" content="#14110d">
+<meta property="og:type" content="restaurant"><meta property="og:site_name" content="Meer's Cafe"><meta property="og:locale" content="en_PK"><meta property="og:url" content="https://YOUR-DOMAIN-HERE/"><meta property="og:title" content="Meer's Cafe – Bites • Brews • Good Vibes"><meta property="og:description" content="Fast food in Shamsabad, Rawalpindi. Open 11 AM – 3 AM."><meta property="og:image" content="https://YOUR-DOMAIN-HERE/assets/images/hero-background.jpg">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FastFoodRestaurant","name":"Meer's Cafe","image":"https://YOUR-DOMAIN-HERE/assets/images/hero-background.jpg","telephone":"+92 322 1166710","servesCuisine":["Fast Food","Burgers","Pizza","Shawarma"],"priceRange":"Rs. 70 - Rs. 2900","hasMenu":"https://YOUR-DOMAIN-HERE/#menu","address":{"@type":"PostalAddress","streetAddress":"Maryam Hall, Shamsabad","addressLocality":"Rawalpindi","addressCountry":"PK"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"11:00","closes":"23:59"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"03:00"}]}</script></head><body>
+<header class="top"><b data-cfg="name"></b><button class="btn" id="cartbtn" aria-label="Open cart"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 11.4a1.5 1.5 0 0 0 1.5 1.1h8.6a1.5 1.5 0 0 0 1.5-1.1L21 7H6"/></svg><span>Cart</span><span id="count">0</span></button></header>
+<section class="hero" id="hero"><div><img id="logo" alt="Meer's Cafe logo" width="150" height="161" decoding="async" fetchpriority="high"><h1><span class="line">Good Food</span> <span class="line accent">Good Mood</span></h1>
+<p>Burgers, pizzas, crispy broast, shawarma and more at Meer's Cafe, Shamsabad. Fresh, hot and ready for delivery or pickup.</p>
+<div class="btns"><a class="btn" href="#menu">Order Now</a><a class="btn ghost" href="#menu">Explore Menu</a></div><span id="status" class="status" role="status" aria-live="polite"></span></div></section>
+<nav id="catnav" aria-label="Menu categories"></nav>
+<main><h2 id="menu">Our Menu</h2><div id="menu-list"></div>
+<section aria-labelledby="about-h"><h2 id="about-h">About Us</h2><div class="about reveal"><div><p>Meer's Cafe is a fast food spot in Shamsabad, Rawalpindi serving burgers, pizza, broast, shawarma, rolls, loaded fries and tea &amp; coffee. Open daily 11:00 AM to 3:00 AM.</p><p class="small">Delivery fee: <span id="fee-note"></span> (Faizabad, Shamshabad, Six Road, Dhok Kala Khan) · Pickup is free.</p></div><img src="assets/images/menu-deals.jpg" alt="Meer's Cafe deals menu showing combo deals with burgers, pizzas, fries and drinks" width="490" height="350" loading="lazy" decoding="async"></div></section></main>
+<footer><p><b data-cfg="name"></b> · <span data-cfg="address"></span></p><p>Call: <span data-cfg="phoneDisplay"></span> / <span data-cfg="phone2Display"></span> · Open 11:00 AM – 3:00 AM daily</p><p><a href="#menu">Menu</a> · <a href="#hero">Top</a></p></footer>
+<aside id="drawer" aria-label="Cart"><button id="close" aria-label="Close">✕</button><h2>Your Order</h2><ul id="lines"></ul>
+<div class="seg"><button type="button" data-t="delivery"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l3-7h5l4 7M9 10l-1-3H5M14 10l-1.5-3H11"/></svg> Home Delivery</button><button type="button" data-t="pickup"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9M3 9v0a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0M5 12v8h14v-8M10 20v-5h4v5"/></svg> Self Pickup</button></div>
+<div class="sum"><div><span>Subtotal</span><span id="sub"></span></div><div id="feeRow"><span>Delivery fee</span><span id="fee"></span></div><div class="t"><span>Total</span><span id="total"></span></div></div>
+<form id="form">
+<label>Full Name *</label>
+<input name="name" required autocomplete="name" placeholder="Your full name">
+
+<label>WhatsApp Number</label>
+<input name="whatsapp" id="whatsapp" type="tel" pattern="[0-9+ \-]{10,15}" autocomplete="tel" placeholder="Enter your WhatsApp number">
+
+<label>Call Number *</label>
+<input name="phone" id="phone" type="tel" required pattern="[0-9+ \-]{10,15}" autocomplete="tel" placeholder="03XX XXXXXXX">
+<label class="check-label"><input type="checkbox" id="sameWa"> Same as my WhatsApp number</label>
+
+<div id="delFields">
+<label>Delivery Area *</label>
+<select id="area" name="area" required>
+  <option value="">Select area</option>
+</select>
+<label>Complete Address (House / Street / Landmark) *</label>
+<textarea id="addr" name="addr" rows="2" placeholder="House no, street, near landmark..."></textarea>
+</div>
+
+<div id="pickFields" hidden>
+<label for="pickDate">Pickup Date *</label>
+<input type="date" name="pickDate" id="pickDate" class="date-input" aria-describedby="pickDateHelp">
+<p class="small" id="pickDateHelp">Tap the field to choose a date from the calendar. Past dates are not available.</p>
+<label for="pick">Preferred Pickup Time *</label>
+<input name="pick" id="pick" placeholder="e.g. 9:30 PM or ASAP">
+</div>
+
+<label>Other Instructions (optional)</label>
+<textarea name="note" rows="2" placeholder="Any special request..."></textarea>
+
+<button class="btn" id="sendBtn" style="width:100%;margin-top:14px">Send Order via WhatsApp</button>
+<p class="small">WhatsApp will open with your order ready. Press <b>Send</b> there to place it. Order is confirmed only after restaurant replies.</p>
+<p id="sent" class="small" hidden>WhatsApp opened — remember to press Send.</p>
+</form></aside><div id="scrim"></div>
+<script src="js/config.js"></script><script src="js/menu.js"></script><script src="js/app.js"></script></body></html>
